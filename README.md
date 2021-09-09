@@ -1,3 +1,6 @@
+
+<html>
+
 <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js">
 var clipboard = new ClipboardJS('.clip');
 
@@ -17,9 +20,8 @@ clipboard.on('error', function(e) {
 });
 </script>
 
-# MonkeyGitTutorial
-
 <div id="target-div">
     指定したid内の要素をクリップボードへコピーします。
 </div>
 <button class="clip" data-clipboard-target="#target-div">IDを指定してコピー</button>
+</html>
